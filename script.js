@@ -4,8 +4,7 @@
 const intro = document.getElementsByClassName("intro-container")[0];
 const background = document.getElementsByClassName("background-wrap")[0]
 const utilMenu = document.getElementsByClassName("util-menu")[0]
-background.style.opacity = "0";
-utilMenu.style.opacity = "0";
+
 setTimeout(() => {
   intro.classList.add("intro-hide");
 }, 4000)
