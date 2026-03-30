@@ -1,0 +1,53 @@
+{
+    "author": {
+        "name": {
+            "ru": "Тиханович Кирилл",
+            "eng": "Tikhanovich Kirill"
+        },
+        "specific": {
+            "ru": "Frontend разработчик",
+            "eng": "Frontend developer"
+        }
+    },
+    "menu_items": {
+        "about_me": {
+            "content": {
+                "ru": "родился в минске, тиханович кирилл,родился в минске, тиханович кириллродился в минске, тиханович кириллродился в минске, тиханович кириллродился в минске, тиханович кириллродился в минске, тиханович кириллродился в минске, тиханович кириллродился в минске, тиханович кирилл",
+                "eng": "born in minsk, tikhanovich kirill,born in minsk, tikhanovich kirill,born in minsk, tikhanovich kirill,born in minsk, tikhanovich kirill,born in minsk, tikhanovich kirill"
+            },
+            "def": {
+                "ru": "обо мне",
+                "eng": "about me"
+            }
+        },
+        "skills": {
+            "content": {
+                "ru": "html css js ts angular адаптивная верстка",
+                "eng": "html css js ts angular response web design"
+            },
+            "def": {
+                "ru": "навыки",
+                "eng": "skills"
+            }
+        },
+        "projects": {
+            "content": {
+                "ru": "мои работы,мои работы,мои работы,мои работы,мои работы,мои работы,мои работы,мои работы,мои работы,",
+                "eng": "my projects,my projects,my projects,my projects,my projects,my projects,my projects,my projects,my projects,my projects"
+            },
+            "def": {
+                "ru": "работы",
+                "eng": "projects"
+            }
+        },
+        "contacts": {
+            "content": {
+                "eng": "tg linkedin github instagram"
+            },
+            "def": {
+                "ru": "контакты",
+                "eng": "contacts" 
+            }
+        }
+    }
+}

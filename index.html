@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="translation.json"></script>
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+  <div class="intro-container">
+     <div class="name-tag">
+      <span>K</span>
+      <span>I</span>
+      <span>R</span>
+      <span>I</span>
+      <span>L</span>
+      <span>L</span>
+      <span>&nbsp;</span>
+      <span>T</span>
+      <span>I</span>
+      <span>K</span>
+      <span>H</span>
+      <span>A</span>
+      <span>N</span>
+      <span>O</span>
+      <span>V</span>
+      <span>I</span>
+      <span>С</span>
+      <span>H</span>
+    </div>
+    <div class="portfolio-tag transition">
+      <span class="bold">P</span>
+      <span class="bold">O</span>
+      <span class="bold">R</span>
+      <span class="bold">T</span>
+      <span class="bold">F</span>
+      <span class="bold">O</span>
+      <span class="bold">L</span>
+      <span class="bold">I</span>
+      <span class="bold">O</span>
+    </div>
+  </div>
+    
+    <main class="background-wrap">
+      <div id="particle-background"></div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+      <div class="portfolio-wrap">
+        <div class="left-part">
+          <div class="author">
+            <h1 class="author-name" id="author-name">
+            Kirill Tikhanovich
+            </h1>
+            <span class="author-specific">
+                Frontend Engineer
+            </span>
+          </div>
+      
+          <ul class="portfolio-menu">
+            <!-- <li><a class="portfolio-menu-item" href="about-me">about me</a></li>
+            <li><a class="portfolio-menu-item" href="skills">skills</a></li>
+            <li><a class="portfolio-menu-item" href="projects">projects</a></li>
+            <li><a class="portfolio-menu-item" href="contacts">contacts</a></li> -->
+            <li><a class="portfolio-menu-item-link" id="about-me-link">about me</a></li>
+            <li><a class="portfolio-menu-item-link" id="skills-link">skills</a></li>
+            <li><a class="portfolio-menu-item-link" id="projects-link">projects</a></li>
+            <li><a class="portfolio-menu-item-link" id="contacts-link">contacts</a></li>
+          </ul>
+        </div>
+      
+        <div class="about-me">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas pariatur reiciendis vitae. Cumque incidunt vitae iure culpa reprehenderit, explicabo eveniet, illum maxime unde odio sit. Expedita molestias ipsam dicta quasi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, fuga enim nemo possimus libero iure eaque architecto iusto fugiat corporis debitis dolores voluptatem autem? Cupiditate cumque a voluptates at laudantium!
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, dolor in eveniet doloremque ipsa delectus quam, explicabo impedit ea adipisci, repudiandae cupiditate. Ut ullam at doloribus, dicta error earum maiores.
+        </div>
+      </div>
+    </main>
+    <div class="util-menu" >
+      <div class="checkbox-wrap">
+        <input class="checkbox" type="checkbox" id="checkbox-theme"/>
+        <label for="checkbox-theme" style="--d: 14px">
+          <svg viewBox="0 0 50 50">
+            <rect class="inner-square" x="12" y="12" width="26" height="26"></rect>
+          </svg>
+        </label>
+        dark mode
+      </div>
+      
+      <div class="checkbox-wrap">
+        <input class="checkbox" type="checkbox" id="checkbox-ru-lang"/>
+        <label for="checkbox-ru-lang" style="--d: 14px">
+          <svg viewBox="0 0 50 50">
+            <rect class="inner-square" x="12" y="12" width="26" height="26"></rect>
+          </svg>
+        </label>
+        ru
+      </div>
+
+      <div class="checkbox-wrap">
+        <input class="checkbox" type="checkbox" id="checkbox-eng-lang"/>
+        <label for="checkbox-eng-lang" style="--d: 14px">
+          <svg viewBox="0 0 50 50">
+            <rect class="inner-square" x="12" y="12" width="26" height="26"></rect>
+          </svg>
+        </label>
+        eng
+      </div>
+    </div>
+</body>
+</html>
